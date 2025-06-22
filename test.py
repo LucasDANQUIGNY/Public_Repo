@@ -1,5 +1,5 @@
 import socket
-from functions import *
+from functions import post
 
 
 def get_ip():
