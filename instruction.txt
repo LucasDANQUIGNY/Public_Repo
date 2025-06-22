@@ -9,3 +9,5 @@ A/V apt install netcat-traditional
 
  V  apt install wine
  V  wine test.exe
+
+pyinstaller --noconfirm --onefile --console  "C:/Users/lucas/Desktop/Reverse-Shell/test.py"
